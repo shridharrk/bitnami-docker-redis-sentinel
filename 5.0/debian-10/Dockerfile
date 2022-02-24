@@ -23,6 +23,5 @@ ENV BITNAMI_APP_NAME="redis-sentinel" \
 
 EXPOSE 26379
 
-USER 1001
 ENTRYPOINT [ "/opt/bitnami/scripts/redis-sentinel/entrypoint.sh" ]
 CMD [ "/opt/bitnami/scripts/redis-sentinel/run.sh" ]
